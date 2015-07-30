@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>그라디언트</title>
+		<style type="text/css">
+			#gradient {
+				/* 대안 색상 */
+				background-color: #66cccc; 
+				/* 대안 이미지 */
+				background-image: url("images/fallback-image.png"); 
+				/* 파이어폭스 3.6+ */
+				background-image: -moz-linear-gradient(#336666, #66cccc);
+				/* 사파리 4+, 크롬 1+ */
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#66cccc), to(#336666));
+				/* 사파리 5.1+, 크롬 10+ */
+				background-image: -webkit-linear-gradient(#336666, #66cccc); 
+				/* 오페라 11.10+ */
+				background-image: -o-linear-gradient(#336666, #66cccc);
+   			height: 150px;
+				width: 300px;}
+		</style>
+	</head>
+	<body>
+		<div id="gradient">
+		</div>
+	</body>
+</html>

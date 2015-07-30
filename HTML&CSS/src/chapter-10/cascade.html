@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS 규칙의 단계적 적용 방식</title>
+		<style type="text/css">
+			* {
+				font-family: Arial, Verdana, sans-serif;}
+			h1 {
+				font-family: "Courier New", Courier, monospace;}
+			i {
+				color: green;}
+			i {
+				color: red;}
+			b {
+				color: pink;}
+			p b {
+				color: blue !important;}
+			p b {
+				color: violet;}
+			p#intro {
+				font-size: 100%;}
+			p {
+				font-size: 75%;}
+		</style>
+	</head>
+	<body>
+		<h1>감자(Potato)</h1>
+		<p id="intro"><i>수십 가지</i>의 <b>감자</b> 품종이 존재한다.</p>
+		<p>재배작형에 따라서는 1년에 한 번 심는 1기작과 두 번 심는 2기작 품종이 있다.</p>
+	</body>
+</html>

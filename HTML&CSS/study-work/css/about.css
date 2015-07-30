@@ -1,0 +1,33 @@
+section.about {
+  margin: 20px;}
+
+section.about h1, section.about h2, section.about h3, section.about a {
+  font-weight: normal;
+  color: #0088dd;
+  margin: 0px;}
+section.about h1 {
+  font-family: Georgia, Times, serif;
+  font-size: 250%;
+  text-shadow: 2px 2px 3px #666666;
+  padding-bottom: 10px;}
+section.about h2 {
+  font-family: "Gill Sans", Arial, sans-serif;
+  font-size: 90%;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;}
+section.about h3 {
+  font-size: 150%;}
+section.about p {
+  font-family: Arial, Verdana, sans-serif;
+  line-height: 1.4em;
+  color: #665544;}
+section.about p.intro:first-line {
+  font-weight: bold;}
+section.about a {
+  text-decoration: none;}
+section.about a:hover {
+  text-decoration: underline;}
+.credits {
+  font-style: italic;	
+  text-align: right;}
+  
